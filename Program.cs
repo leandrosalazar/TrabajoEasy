@@ -6,15 +6,15 @@ namespace Trabajo1
     {
         static void Main(string[] args)
         {
-            int[] numeros = new int[10];
-            int? mayor = null;
-            int? menor = null;
-            int promedio = 0;
-            int acumulador = 0;
+            double[] numeros = new double[10];
+            double? mayor = null;
+            double? menor = null;
+            double promedio = 0;
+            double acumulador = 0;
             Console.WriteLine("Ingrese 10 numeros: ");
             for (int i = 0; i < numeros.Length; i++)
             {
-                numeros[i] = Convert.ToInt32(Console.ReadLine());
+                numeros[i] = Convert.ToDouble(Console.ReadLine());
             }
 
             Console.WriteLine("Al revez: ");
